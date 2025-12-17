@@ -1,14 +1,17 @@
-# Useful Git commands 
-check current git repo: git status 
+# Useful Git commands
 
-initialize empty Git repo: git init 
+check current git repo: git status
 
-commit changes: git commit -message "first commit" 
+initialize empty Git repo: git init
 
-add git repo: git remote add origin https://hithub.com/userProfile/myRepo.git 
+commit changes: git commit -message "first commit"
+
+add git repo: git remote add origin https://hithub.com/userProfile/myRepo.git
 
 check commit log: git log
 
-stage all changes: git add . 
+stage all changes: git add .
 
 push changes: git push origin branchName
+
+add to git ignore: git rm --cached <file> This removes the file from the Git index and stops tracking it

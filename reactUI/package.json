@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "next": "^16.0.10"
+  }, 
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve@latest ./build"
+  }
+
+}
+
