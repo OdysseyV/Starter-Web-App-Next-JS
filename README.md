@@ -1,5 +1,8 @@
 # Useful Git commands 
-check current git repo: '''git status'''
+check current git repo: 
+'''
+git status
+'''
 
 initialize empty Git repo: '''git init''' 
 
