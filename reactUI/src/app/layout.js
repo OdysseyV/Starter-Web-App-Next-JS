@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div id="root">{children}</div>
+        <h1>Hello, World!</h1>
       </body>
     </html>
   );
