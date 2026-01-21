@@ -1,0 +1,1 @@
+Next JS: Folders here correspond to pages in next js routing 
