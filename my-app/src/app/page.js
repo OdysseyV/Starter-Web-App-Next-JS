@@ -5,9 +5,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <main className="main">
-        <h1>Hello World</h1>
-        <Link href="/users"> Users </Link>
+      <main className="nameAnAttributeExample">
+        <h1>Header 1</h1>
+        <Link
+          href="/users"
+          style={{
+            borderStyle: "solid",
+          }}
+        >
+          Users Page Link
+        </Link>
       </main>
     </div>
   );
